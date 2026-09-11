@@ -10,5 +10,9 @@
   "viral-50-usa": {
     "file": "data/viral-50-usa.csv",
     "description": "A sample Viral 50 USA music chart with track positions and artists"
+  },
+  "DC-Comics-Characters": {
+    "file": "data/DC-Comics-Characters.csv",
+    "description": "DC Comics Characters"
   }
 }

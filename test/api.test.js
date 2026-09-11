@@ -44,7 +44,7 @@ test("lists configured datasets", async () => {
   const response = await worker.fetch(new Request("https://example.com/api/v1/datasets"), env);
   assert.equal(response.status, 200);
   const body = await response.json();
-  assert.deepEqual(body.datasets.map(({ id }) => id), ["cats", "board-games", "viral-50-usa"]);
+  assert.deepEqual(body.datasets.map(({ id }) => id), ["cats", "board-games", "viral-50-usa", "DC-Comics-Characters"]);
 });
 
 test("root shows a concise deployment success and route help page", async () => {
